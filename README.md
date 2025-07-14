@@ -40,14 +40,30 @@ python manage.py runserver
 ```
 
 🧪 How to Test 
-1 Open Postman
-2 Create a POST request to:
+- Open Postman
+- Create a POST request to:
 - http://127.0.0.1:8000/api/predict/
-
-3 Under Body 
+-  Under Body 
   - form-data:
   - Add a key image
   - Type: File
   - Upload any digit image (28x28 or larger)
   - Hit Send – You’ll get a response:
+
+.
+├── api/
+│   ├── views.py
+│   ├── utils.py
+│   └── urls.py
+├── classifier_api/
+│   └── urls.py
+├── model/
+│   └── mnist_cnn_model.h5
+├── manage.py
+└── README.md
+
+## Author
+Shahnaz Aqsa
+Machine Learning & Backend Developer
+
 
