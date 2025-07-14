@@ -51,17 +51,6 @@ python manage.py runserver
   - Hit Send – You’ll get a response:
 
 
-├── api/
-│   ├── views.py
-│   ├── utils.py
-│   └── urls.py
-├── classifier_api/
-│   └── urls.py
-├── model/
-│   └── mnist_cnn_model.h5
-├── manage.py
-└── README.md
-
 ## Author
 Shahnaz Aqsa
 Machine Learning & Backend Developer
