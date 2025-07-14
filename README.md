@@ -50,7 +50,7 @@ python manage.py runserver
   - Upload any digit image (28x28 or larger)
   - Hit Send – You’ll get a response:
 
-.
+
 ├── api/
 │   ├── views.py
 │   ├── utils.py
