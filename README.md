@@ -1,4 +1,5 @@
 # image-classifier-api
+
 A Django-based REST API for image classification using a CNN model
 
 # 🧠 MNIST Digit Classifier API
@@ -29,7 +30,8 @@ A machine learning web API that classifies handwritten digits (0–9) using a Co
 
 ## 📦 How to Run Locally
 
- **Clone the repo**
+**Clone the repo**
+
 ```bash
 git clone https://github.com/Shahnazaqsa/image-classifier-api.git
 cd image-classifier-api
@@ -39,20 +41,19 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-🧪 How to Test 
+🧪 How to Test
+
 - Open Postman
 - Create a POST request to:
 - http://127.0.0.1:8000/api/predict/
--  Under Body 
-  - form-data:
-  - Add a key image
-  - Type: File
-  - Upload any digit image (28x28 or larger)
-  - Hit Send – You’ll get a response:
-
+- Under Body
+- form-data:
+- Add a key image
+- Type: File
+- Upload any digit image
+- Hit Send – You’ll get a response:
 
 ## Author
+
 Shahnaz Aqsa
 Machine Learning & Backend Developer
-
-

@@ -13,9 +13,7 @@ class PredictDigits(APIView):
         try:
     
             image_file = request.FILES['image']
-            image = Image.open(image_file).convert('L') # converts the image into grayscale
-            image = image.resize((28,28)) # resize the image that the model expects
-            image_array = np.array(image)/255.0
+            image = Image.open(image_file)
             predict_digit = image_prediction(image)
             return Response({'prediction':int(predict_digit)})
         except Exception as e:
